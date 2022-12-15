@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/common/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/sub/join/join.css">
+    <script src="https://kit.fontawesome.com/0c1997d233.js" crossorigin="anonymous"></script>
+    <script src="../../../js/plugin/jquery-3.6.1.min.js"></script>
+    <script src="../../../js/index.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <hr>
+        <h1 class ="logo"><a href="#">Porsche</a></h1>
+    </header>
+    <main id="main" class="main">
+        <div>
+            <span class="number">1</span> <span>개인 정보 입력</span>
+            <span class="number">2</span> <span>이메일 확인</span>
+            <span class="number">3</span> <span>암호 설정</span>
+        </div>
+        <div class="top_txt">
+            <h2>Porsche ID를 받으십시오.</h2>
+            <p>포르쉐 가족의 일원이 되어 Porsche ID를 만드십시오.</p>
+            <p>모든 포르쉐 디지털 서비스 및 기능의 핵심입니다.</p>
+        </div>
+        <form name="" action="" method="post" class="join_form">
+        <fieldset>
+            <legend class="hide">회원정보</legend>
+            <div class="form_group txt">
+                <label for="gender">성별</label>
+                <select name="gender" id="gender" class="gender">
+                    <option>성별 선택</option>
+                    <option>남성</option>
+                    <option>여성</option>
+                </select>
+            </div>
+            <div class="form_group txt">
+                <label for="u_name">이름</label>
+                <input type="text" id="u_name" class="u_name">
+            </div>
+            <div class="form_group txt">
+                <label for="email">이메일 주소</label>
+                <input type="email" id="email" class="email">
+            </div>
+
+            <div class="chk_wrap">
+                <div>
+                    <input type="checkbox" id="chk_1">
+                    <label for="chk_1">저는 이용약관의 내용을 확인하였으며, 이에 동의합니다.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk_2">
+                    <label for="chk_2">저는 개인정보 수집∙이용 동의서 의 내용을 확인하였으며, 이에 동의합니다.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk_3">
+                    <label for="chk_3">저는 개인정보 제3자 제공 동의서 의 내용을 확인하였으며, 이에 동의합니다.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk_4">
+                    <label for="chk_4">저는 개인정보 국외 이전 동의서 의 내용을 확인하였으며, 이에 동의합니다.</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="chk_5">
+                    <label for="chk_5">저는 만 14세 이상 입니다.</label>
+                </div>
+            </div>
+            <button type="submit" class="submit_btn"><i class="fa-solid fa-angle-right"></i> Porsche ID 계정 생성</button>
+        </fieldset>
+        </form>
+        <p>이 웹 사이트는 ReCAPTCHA에 의해 보호되며 Google의 개인정보보호정책 및 사용 약관 에 따라 달라집니다.</p>
+    </main>
+</body>
+</html>
