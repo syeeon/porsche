@@ -1,0 +1,104 @@
+.shop ul li, .searchCenter form, .moreBox ul{
+    display: none;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+    height: 12rem;
+    align-items: center;
+    
+}
+
+.header::before{
+    content: " ";
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    width: calc(100vw + 14rem);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 55%;
+    position: absolute;
+    top:12rem;
+    z-index: 999;
+    box-sizing: border-box;
+    display: none;
+    
+}
+
+.gnb{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_models{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.dep_2{
+    width: 100vw;
+    height: 55%;
+    display: flex;
+    justify-content :space-around;
+    align-items: center;
+    z-index: 9999;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12rem;
+    display: none;
+}
+.dep_2 .img_box img{
+    width: 100%;
+}
+
+.second_box .car_name{
+    font-size: 4rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.second_box li{
+    border-top: 1px solid #ddd;
+    padding: 1rem 0;
+}
+
+.second_box .line{
+    border-bottom: 1px solid #ddd;
+}
+.gnb_right{
+    width: 40%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header_models a{
+    display: block;
+}
+
+.logo{
+    width: 14rem;
+    height: 15rem;
+    text-indent: -999px;
+    z-index: 9999;
+
+}
+
+.logo a{
+    display: block;
+    border: 1px solid #ddd;
+    width: 14rem;
+    height: 15rem;
+    background: url(../../img/index/logo.jpg) #fff center no-repeat;
+} 
+

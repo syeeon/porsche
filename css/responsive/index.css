@@ -1,0 +1,105 @@
+
+/* models */
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    
+    .model_wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+    .model_wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .link_top .price, .link_bottom{
+        display: none;
+    }
+}
+
+
+
+/* shopping tool */
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    .tool_4{
+        display: none;
+    }
+
+    .tools_box{
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+    .tool_4{
+        display: none;
+    }
+
+    .tool_1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .sub2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sub3{
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+
+
+}
+
+
+
+
+/* discover */
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    .discover_wrap li:nth-child(3), .discover_wrap li:nth-child(4){
+        display: none;
+    }
+
+    .discover_wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+
+
+}
+
+
+
+/* footer */ 
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    .link_wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+}
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+
+
+}
