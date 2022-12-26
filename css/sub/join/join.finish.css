@@ -1,0 +1,42 @@
+/* css reseat */
+.main, .header{
+    padding: 0 10rem;
+}
+
+
+/* header */
+
+.logo{
+    width: 12rem;
+    height: 7rem;
+    text-indent: -999px;
+    margin:auto
+}
+
+.logo a{
+    display: block;
+    width: 12rem;
+    height: 7rem;
+    background: url(../../../img/join/logo.jpg) no-repeat;
+} 
+
+.number{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 6rem;
+}
+
+
+
+
+
