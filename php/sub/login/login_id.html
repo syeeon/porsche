@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="../../../css/common/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/sub/login/login_id.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/responsive/login.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/responsive/footer.css">
+    <script src="https://kit.fontawesome.com/0c1997d233.js" crossorigin="anonymous"></script>
+    <script src="../../../js/plugin/jquery-3.6.1.min.js"></script>
+    <script src="../../../js/login/login_id.js"></script>
+</head>
+<body>
+    
+<main id="main" class="main">
+    <section class="login_box">
+        <h1 class ="logo"><a href="../../index.html">Porsche</a></h1>
+        <h2>반갑습니다.</h2>
+        
+        <form name="id_form" action="login_pwd.html" method="post" onsubmit="return idChk()">
+            <fieldset>
+                <legend class="hide">Porsche ID</legend>
+                <label for="u_id" class="id_txt">Porsche ID(이메일 주소)</label>
+                <input type="email" class="u_id" id="email" name="email">
+            </fieldset>
+            <p id="err_id" class="err_txt"></p>
+            <button type="submit" class="id_btn"><i class="fa-solid fa-angle-right"></i> 계속 진행하려면 암호를 입력하세요</button>
+        </form>
+        
+        
+        <hr class="line">
+        <p class="or_txt">또는</p>
+        
+        <p class="join_txt">
+            <a href="../join/router.html">지금 등록하세요</a>  
+            , Porsche의 디지털 세상을 알아보세요.                  
+        </p>
+    </section>
+</main>
+<footer id="footer" class="footer_sub">
+    <span>© 2023 Porsche Korea Ltd. <a href="#">법적 고지.</a> <a href="#">개인정보처리방침.</a></span>
+</footer>
+
+</body>
+</html>

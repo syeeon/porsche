@@ -1,0 +1,58 @@
+/* login_id */
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    
+    .login_box{
+        margin-left: 0;
+    }
+    
+}    
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+    body{
+        width: 100vw;
+        background: #fff;
+    }
+    
+    .login_box{
+        width: 100vw;
+        margin: auto;
+    }
+
+    .id_btn{
+        width: 100%;
+        text-align: left;
+    }
+}    
+
+
+/* login_pwd */
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+    
+    .pwd_box{
+        margin-left: 0;
+    }
+    
+}    
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+    body{
+        width: 100vw;
+        height: 100vw;
+        background: #fff;
+    }
+    
+    .pwd_box{
+        width: 100vw;
+        margin: auto;
+    }
+
+    .login_btn{
+        width: 100%;
+        text-align: left;
+    }
+}    
