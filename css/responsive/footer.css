@@ -1,0 +1,39 @@
+/* footer */
+
+/* 태블릿 */
+@media screen and (min-width:769px)and (max-width:1024px){
+
+    .footer_link .link_wrap{
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (min-width:360px)and (max-width:768px){
+    .line{
+        display: none;
+    }
+
+    .footer_link{
+        margin: 5rem 0;
+    }
+
+    .footer_link .link_wrap{
+        display: block;
+    }
+
+    /* .link_wrap a{
+        display: block;
+
+    } */
+
+    .link_wrap h3{
+        border-top: 1px solid #000;
+    }
+
+    .link_wrap .last{
+        border-bottom: 1px solid #000;
+    }
+}
